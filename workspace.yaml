@@ -1,0 +1,17 @@
+apiVersion: plural.sh/v1alpha1
+kind: ProjectManifest
+metadata:
+  name: ren-runbook-airflow
+spec:
+  cluster: ren-runbook-airflow
+  bucket: ren-runbook-airflow-tf-state
+  project: pluralsh
+  provider: google
+  region: ""
+  owner:
+    email: yirenlu92@gmail.com
+  network:
+    subdomain: tryunitofwork.onplural.sh
+    pluraldns: true
+  bucketPrefix: frindle
+  context: {}
